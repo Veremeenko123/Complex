@@ -1,5 +1,5 @@
 package org.example;
-
+//Веремеенко Даниил ИС-3
 import lombok.*;
 
 @Setter
@@ -18,14 +18,14 @@ public class Complex {
     }
 
     public Complex add(Complex other) {
-        double sumch = chislo + other.chislo;
-        double sumch1 = chislo1 + other.chislo1;
-        return new Complex(sumch, sumch1);
+        double summach = chislo + other.chislo;
+        double summach1 = chislo1 + other.chislo1;
+        return new Complex(summach, summach1);
     }
     public Complex sub(Complex other) {
-        double diffch = chislo - other.chislo;
-        double diffch1 = chislo1 - other.chislo1;
-        return new Complex(diffch, diffch1);
+        double summa2ch = chislo - other.chislo;
+        double summa2ch1 = chislo1 - other.chislo1;
+        return new Complex(summa2ch, summa2ch1);
     }
 
     public Complex mul(Complex other) {
